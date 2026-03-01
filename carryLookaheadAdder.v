@@ -23,10 +23,10 @@ module carryLookaheadAdder(
     assign P1 = A1^B1;
     assign P0 = A0^B0;
     
-    assign C3 = G3 + P3&G2 + P3&P2&G1 + P3&P2&P1&G0 + P3&P2&P1&P0&Cin;
-    assign C2 = G2 + P2&G1 + P2&P1&G0 + P2&P1&P0&Cin;
-    assign C1 = G1 + P1&G0 + P1&P0&Cin;
-    assign C0 = G0 + P0&Cin;
+    assign C3 = G3 | P3&G2 | P3&P2&G1 | P3&P2&P1&G0 | P3&P2&P1&P0&Cin;
+    assign C2 = G2 | P2&G1 | P2&P1&G0 | P2&P1&P0&Cin;
+    assign C1 = G1 | P1&G0 | P1&P0&Cin;
+    assign C0 = G0 | P0&Cin;
     
     assign S3 = P3 ^ C2;
     assign S2 = P2 ^ C1;
