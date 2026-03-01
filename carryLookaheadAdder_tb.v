@@ -16,7 +16,7 @@ module carryLookaheadAdder_tb();
                 A = k;
                 B = j;
                 Cin = 1'b0;
-                #10 $display("A = %b, B=%b, Cin = 0, S = %b, Co = %b", A,B,{S3,S2,S1,S0},Co);
+                #3 $display("A = %b, B=%b, Cin = 0, S = %b, Co = %b", A,B,{S3,S2,S1,S0},Co);
             end
         end
     end
