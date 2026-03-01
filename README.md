@@ -169,9 +169,7 @@ In the Verilog module `carryLookaheadAdder`, these equations are implemented wit
 
 The logic diagram shows the parallel computation of **G** and **P**, the lookahead carry block (C<sub>0</sub> … C<sub>3</sub> from A, B, C<sub>in</sub>), and the sum XOR gates (S<sub>0</sub> … S<sub>3</sub>).
 
-![4-Bit Carry Lookahead Adder Circuit](imageAssets/carryLookaheadAdderCircuit.png)
-
-*If the image does not appear, add your circuit schematic as `imageAssets/carryLookaheadAdderCircuit.png`.*
+![4-Bit Carry Lookahead Adder Circuit](imageAssets/CLACircuit.png)
 
 ---
 
@@ -179,9 +177,7 @@ The logic diagram shows the parallel computation of **G** and **P**, the lookahe
 
 The behavioral simulation waveform shows **A**, **B**, and **C<sub>in</sub>** over time, with **S** and **C<sub>o</sub>** giving the expected sum and carry-out for each input combination.
 
-![4-Bit Carry Lookahead Adder Waveform](imageAssets/carryLookaheadAdderWaveform.png)
-
-*If the image does not appear, add your waveform export as `imageAssets/carryLookaheadAdderWaveform.png`.*
+![4-Bit Carry Lookahead Adder Waveform](imageAssets/CLAWaveform.png)
 
 ---
 
