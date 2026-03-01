@@ -7,7 +7,7 @@ module carryLookaheadAdder_tb();
     
     wire S3,S2,S1,S0,Co;
     
-    carryLookaheadAdder uut(A,B,Cin,S3,S22,S1,S0,Co);
+    carryLookaheadAdder uut(A,B,Cin,S3,S2,S1,S0,Co);
     integer k,j;
     
     initial begin
